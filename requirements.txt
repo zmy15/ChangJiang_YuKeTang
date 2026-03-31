@@ -1,4 +1,4 @@
-selenium
-openai
-requests
-pillow
+selenium~=4.35.0
+openai~=1.109.1
+requests~=2.32.5
+pillow~=12.1.1
