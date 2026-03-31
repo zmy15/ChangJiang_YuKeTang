@@ -17,19 +17,26 @@
 - 与浏览器版本匹配的 `msedgedriver`
 - Umi-OCR（本项目通过本地 HTTP 接口 `http://127.0.0.1:1224/api/ocr` 调用）
 
+相关下载地址：
+
+- Umi-OCR：`https://github.com/hiroi-sora/Umi-OCR`
+- Edge WebDriver：`https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH#downloads`
+
+## 如何查看 Edge 浏览器版本
+
+可使用以下任一方式：
+
+1. 打开 Edge，访问：`edge://settings/help`
+2. 或点击「设置」→「关于 Microsoft Edge」
+
+记录主版本号（例如 `134.x.x.x` 中的 `134`），下载与之匹配主版本的 Edge WebDriver。
+
 ## 安装依赖
 
-项目未提供依赖清单文件，请按代码中使用到的库安装：
-
-- `selenium`
-- `openai`
-- `requests`
-- `pillow`
-
-示例：
+项目已提供 `requirements.txt`，推荐使用以下命令安装：
 
 ```bash
-pip install selenium openai requests pillow
+pip install -r requirements.txt
 ```
 
 ## 配置说明
